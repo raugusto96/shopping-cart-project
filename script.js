@@ -52,7 +52,7 @@ const removeItemFromCart = (event) => {
 };
 
 // função que cria o elemento no carrinho
-const createCartItem = ({ name, salePrice }) => {
+const createCartItem = ({ title: name, price: salePrice }) => {
   const li = document.createElement('li');
   li.className = 'cart__item';
   li.innerText = `Produto: ${name} Preço: $${salePrice}`;
@@ -69,12 +69,7 @@ const adicionaCarrinho = (event) => {
   fetch(`https://api.mercadolibre.com/items/${id}`)
   .then((response) => response.json())
   .then((object) => {
-    const item = {
-      sku: object.id,
-      name: object.title,
-      salePrice: object.price,
-    };
-    createCartItem(item);
+    createCartItem(object);
   })
   .catch((error) => {
     alert(error.message);
