@@ -14,12 +14,16 @@
   width: 100%;
 }
 
-.logo-header {
+.logo-header-container {
   height: 100px;
   width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.logo-header {
+  width: 120px;
 }
 
 .header-cart {
