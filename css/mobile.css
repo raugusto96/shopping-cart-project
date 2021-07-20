@@ -1,0 +1,21 @@
+
+.logo-header-container {
+  padding: 10px 0px;
+  width: 20%;
+}
+
+.header-cart .search-section {
+  margin-right: 20px;
+}
+
+.logo-header {
+  max-width: 80%;
+}
+
+.social-icons {
+  display: none;
+}
+
+.cart .cart__title {
+  font-size: 12pt;
+}

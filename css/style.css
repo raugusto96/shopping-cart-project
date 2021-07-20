@@ -17,21 +17,15 @@
 }
 
 .logo-header-container {
-  height: 100px;
-  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.logo-header {
-  width: 120px;
-}
-
 .header-cart {
   display: flex;
   justify-content: space-between;
-  height: 15vh;
+  min-height: 15vh;
   align-items: center;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
@@ -135,7 +129,6 @@
 
 .cart .cart__title {
   flex-basis: 1;
-  font-size: 16pt;
   text-align: center;
 }
 
@@ -165,13 +158,6 @@
   border: 1px solid brown;
   height: 30px;
   font-weight: 600;
-}
-
-.social-icons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 30px;
 }
 
 .svg-inline--fa.fa-w-14 {

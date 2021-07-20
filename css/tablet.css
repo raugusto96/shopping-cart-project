@@ -1,0 +1,24 @@
+
+.logo-header-container {
+  padding: 10px 0px;
+  width: 20%;
+}
+
+.logo-header {
+  max-width: 60%;
+}
+
+.social-icons {
+  display: none;
+}
+
+.cart .cart__title {
+  font-size: 14pt;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
