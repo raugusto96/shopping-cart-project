@@ -18,3 +18,11 @@
 .cart .cart__title {
   font-size: 16pt;
 }
+
+.empty-cart {
+  font-size: medium;
+}
+
+.total-price {
+  font-size: normal;
+}

@@ -8,6 +8,10 @@
   margin-right: 20px;
 }
 
+.empty-cart {
+  font-size: normal;
+}
+
 .logo-header {
   max-width: 80%;
 }
@@ -18,4 +22,8 @@
 
 .cart .cart__title {
   font-size: 12pt;
+}
+
+.total-price {
+  font-size: small;
 }

@@ -16,6 +16,14 @@
   font-size: 14pt;
 }
 
+.empty-cart {
+  font-size: medium;
+}
+
+.total-price {
+  font-size: normal;
+}
+
 .social-icons {
   display: flex;
   flex-direction: column;
